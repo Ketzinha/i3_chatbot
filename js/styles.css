@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #ffffff;
+}
+
+/* Estilo adicional para a imagem ao lado do chat-container */
+.user-message {
+  color: blue; /* ou qualquer cor desejada */
+}
+
+.chatbot
+
+
+/* Estilo do chat-container e seu contêiner pai */
+#container {
+  display: flex;
+  justify-content: space-between; /* Coloca os elementos o mais longe possível um do outro */
+  max-width: 900px; /* Ajuste conforme necessário */
+  margin: 100px auto;
+}
+
+/* Estilo para o contêiner do chat */
+.chat-container {
+  width: 100%;
+  overflow-y: auto;
+}
+
+/* Estilo para as mensagens do chatbot */
+.chatbot-message {
+  background-color: #f1f1f1; /* Cor de fundo para as mensagens do chatbot */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  float: left; /* Alinha à esquerda */
+  clear: both;
+}
+
+/* Estilo para as mensagens do aluno */
+.user-message {
+  background-color: #00ff08; /* Cor de fundo para as mensagens do aluno */
+  color: white; /* Cor do texto */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  float: right; /* Alinha à direita */
+  clear: both;
+}
+
+#chat-header {
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #ff0000;
+}
+
+#chat-messages {
+  height: 200px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+#chat-container {
+  max-width: 500px;
+  margin: 5px auto;
+  background-color: #000;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+#chat-header {
+  background-color: #ffcc00;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+#chat-messages {
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+#user-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#user-input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+button:hover {
+  background-color: #ffe066;
+}
+
+#i3-logo {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: 50px;
+  margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+  align-self: flex-end; /* Alinha o logo no final do contêiner flexível */
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adicione uma sombra se desejar */
+}
+
+/* Adicione essas classes no seu arquivo CSS */
+
+.message-icon {
+  font-size: 1.5em; /* Tamanho do ícone, ajuste conforme necessário */
+  margin-right: 5px; /* Espaçamento entre o ícone e o texto, ajuste conforme necessário */
+}
+
+/* Adicione essas classes no seu arquivo CSS */
+
+.user-icon {
+  color: #007bff; /* Cor azul para o ícone do usuário, ajuste conforme necessário */
+}
+
+.chatbot-icon {
+  color: #28a745; /* Cor verde para o ícone do chatbot, ajuste conforme necessário */
+}
